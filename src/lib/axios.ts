@@ -1,6 +1,9 @@
 import axios from 'axios';
 
-const baseURL = 'https://conference-bulgaria-recorded-symbols.trycloudflare.com/api/';
+// const baseURL = 'https://conference-bulgaria-recorded-symbols.trycloudflare.com/api/';
+
+const baseURL = 'https://54.211.193.123/api/';  // <-- your EC2 public IP
+
 
 const api = axios.create({
   baseURL,
