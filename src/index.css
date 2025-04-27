@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ant-btn-primary {
+  background-color: #4F46E5 !important;
+}
+
+.ant-btn-primary:hover {
+  background-color: #4338CA !important;
+}
+
+.ant-tabs-nav::before {
+  border-bottom: none !important;
+}
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #4F46E5 !important;
+}
+
+.ant-tabs-ink-bar {
+  background: #4F46E5 !important;
+}
