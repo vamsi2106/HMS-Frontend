@@ -14,7 +14,18 @@ export default defineConfig({
   //     },
   //   },
   // },
+  server: {
+    https: false, // Allow HTTP APIs for now
+    proxy: {
+      '/api': {
+        target: 'http://54.211.193.123:8000',
+        changeOrigin: true,
+        secure: false,
+      }
+    }
+  },  
   optimizeDeps: {
+
     exclude: ['lucide-react'],
   },
 });
